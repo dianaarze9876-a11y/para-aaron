@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<title>Para Aaron 💙</title>
+<style>
+    body {
+        margin: 0;
+        height: 100vh;
+        background: radial-gradient(circle at bottom, #020111 0%, #000000 100%);
+        overflow: hidden;
+        font-family: 'Arial', sans-serif;
+        color: white;
+        text-align: center;
+    }
+
+    .stars {
+        width: 1px;
+        height: 1px;
+        background: white;
+        position: absolute;
+        animation: moveStars 50s linear infinite;
+        box-shadow: 
+        100px 200px white, 300px 400px white, 500px 600px white,
+        700px 100px white, 900px 300px white;
+    }
+
+    @keyframes moveStars {
+        from {transform: translateY(0);}
+        to {transform: translateY(-2000px);}
+    }
+
+    .content {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        animation: fadeIn 3s ease;
+    }
+
+    h1 {
+        font-size: 40px;
+        color: #00c3ff;
+    }
+
+    p {
+        font-size: 18px;
+        margin: 10px;
+    }
+
+    @keyframes fadeIn {
+        from {opacity: 0;}
+        to {opacity: 1;}
+    }
+</style>
+</head>
+
+<body>
+
+<div class="stars"></div>
+
+<div class="content">
+    <h1>💙 Aaron 💙</h1>
+
+    <p>Eres mi universo entero 🌌</p>
+    <p>Contigo quiero recorrer todos los mares... como Luffy 🏴‍☠️</p>
+    <p>Si tú eres mi tripulación, yo nunca me pierdo ❤️</p>
+    <p>Eres mi aventura favorita ✨</p>
+    <p>Y aunque el mundo sea grande...</p>
+    <p>Siempre te elegiría a ti 💫</p>
+
+    <p style="margin-top:20px;">🍖 "Porque contigo... todo vale la pena"</p>
+</div>
+
+</body>
+</html>
